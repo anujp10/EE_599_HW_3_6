@@ -7,7 +7,7 @@ int main()
     int input = 0, curr_item = 0, i = 0;
 
     std::vector <int> :: iterator it;
-    std::vector <int> input_vector = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    std::vector <int> input_vector = {1, 4, 5, 23, 100, 12, 18, 175};
     do {
         solution.PrintMenu(input_vector);
         std::cin >> input;
